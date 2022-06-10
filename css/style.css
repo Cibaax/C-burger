@@ -39,7 +39,7 @@ body{
     height: 100vh;
     background: url('../img/background.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
     overflow-x: hidden;
 }
 
@@ -50,7 +50,7 @@ img {
 
 p {
     color: white;
-    font-size:60px;
+    font-size:18px;
     font-family: Volkorn-Semibold;
     text-align: center;
     text-transform: capitalize;
@@ -69,8 +69,8 @@ header {
 }
 
 .burger-container{
-    width: 738px;
-    height: 923px;
+    width: 820px;
+    height: 615px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -103,15 +103,20 @@ header {
 
 
 .burger-container .burger-ingredients {
-    width: 100%;
+    width: 120%;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -10%;
     display: grid;
     grid-template-columns: repeat(20,5%);
     grid-template-rows: repeat(20,5%);
-    align-items: center ;
+    align-items: center;
+}
+
+.burger-container .burger-ingredients p {
+    font-size: 60px;
+
 }
 
 .burger-ingredients .bread {
