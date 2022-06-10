@@ -115,16 +115,16 @@ header {
 }
 
 .burger-ingredients .bread {
-    grid-area: 3/18 / 4/21;
+    grid-area: 1/15 / 4/19;
 }
 .burger-ingredients .sauce {
-    grid-area: 1/3 / 2/8;    
+    grid-area: 1/3 / 3/8;    
 }
 .burger-ingredients .bacon {
-    grid-area: 9/4 / 12/10;
+    grid-area: 7/4 / 9/8;
 }
 .burger-ingredients .onion {
-    grid-area: 6/20 / 8/21;
+    grid-area: 4/17 / 6/21;
     
 }
 .burger-ingredients .cheese {
