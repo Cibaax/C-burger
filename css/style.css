@@ -4,7 +4,7 @@
 }
 
 *{
-    padding:0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -34,6 +34,15 @@ header nav .logo {
     background-position: center;
 }
 
+
+body{
+    height: 100vh;
+    background: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -46,14 +55,6 @@ p {
     text-align: center;
     text-transform: capitalize;
 }
-
-body{
-    height: 100vh;
-    background: url('../img/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .main-container{
     display: flex;
     flex-direction: column;
@@ -83,6 +84,25 @@ header {
     justify-content: center;
     align-items: center;
 } */
+
+.burger-container .burger-illustration {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.burger-container .burger-illustration img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.burger-container .burger-illustration img:nth-child(2) {
+    top: 10%;
+    left: -18%;
+}
+
+
 
 
 
